@@ -1,0 +1,19 @@
+author = "{Author}";
+onLoadName = "{ProjectName} 0.1";
+onLoadMission = "A game mode developed by {Author}";
+// loadScreen = "images/loadScreen.paa";
+
+joinUnassigned = 1;
+respawn = BASE;
+// respawnDelay = 60;
+disabledAI = true;
+disableChannels[] = {2};
+respawnDialog = 0;
+saving = 0;
+
+class Header 
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 65;	
+}
